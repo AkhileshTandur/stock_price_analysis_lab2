@@ -1,0 +1,3 @@
+snowflake-sqlalchemy
+snowflake-connector-python
+pinecone-client

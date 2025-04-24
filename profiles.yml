@@ -1,0 +1,13 @@
+build_mau:
+  outputs:
+    dev:
+      account: SFEDU02-KSB65579
+      database: DEV
+      password: Akhil_tandur@12
+      role: TRAINING_ROLE
+      schema: ANALYTICS
+      threads: 1
+      type: snowflake
+      user: COYOTE
+      warehouse: ANIMAL_TASK_WH
+  target: dev
