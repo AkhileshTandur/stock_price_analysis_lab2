@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Source schema for raw stock price data"
+    schema: RAW        # e.g., PUBLIC or RAW
+    tables:
+      - name: STOCK_PRICE
+        description: "Raw daily stock price data loaded from external source"
+        columns:
+          - name: ticker
+            description: "Stock symbol"
+          - name: trade_date
+            description: "Trade date"
+          - name: open_price
+          - name: close_price
+          - name: high_price
+          - name: low_price
+          - name: volume
