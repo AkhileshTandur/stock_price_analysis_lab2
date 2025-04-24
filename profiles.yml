@@ -3,7 +3,7 @@ build_mau:
     dev:
       account: SFEDU02-KSB65579
       database: DEV
-      password: Akhil_tandur@12
+      password: 
       role: TRAINING_ROLE
       schema: ANALYTICS
       threads: 1
